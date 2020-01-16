@@ -10,15 +10,17 @@
 			<key>CFBundleTypeIconFiles</key>
 			<array/>
 			<key>CFBundleTypeName</key>
-			<string>Images</string>
+			<string>My Document</string>
 			<key>CFBundleTypeRole</key>
-			<string>Viewer</string>
+			<string>Editor</string>
 			<key>LSHandlerRank</key>
-			<string>Alternate</string>
+			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>public.image</string>
+				<string>net.gacha.mydoc</string>
 			</array>
+			<key>LSTypeIsPackage</key>
+			<true/>
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
@@ -60,6 +62,29 @@
 	</array>
 	<key>UISupportsDocumentBrowser</key>
 	<true/>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.apple.package</string>
+				<string>public.composite-content</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>My Document</string>
+			<key>UTTypeIconFiles</key>
+			<array/>
+			<key>UTTypeIdentifier</key>
+			<string>net.gacha.mydoc</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>mydoc</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
 	<key>UTImportedTypeDeclarations</key>
 	<array>
 		<dict/>
