@@ -2,7 +2,7 @@ This is a sample project for a document-based app for iOS.
 
 This is based on experience gained from the development of the personal database App [Firevault](https://apps.apple.com/us/app/firevault/id1439389822) for iOS.
 
-The following is a translation of an article posted to Qiita.
+The following is a translation of [an article posted to Qiita](https://qiita.com/gachalatte/items/b5a7839cb53eb34415d2).
 
 # Document-Based App
 
